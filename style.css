@@ -1,0 +1,86 @@
+body{
+    font-family: sans-serif;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+
+
+.poke-pic{
+height: 125px;
+aspect-ratio: 1/1;
+border-radius: 50%;
+object-fit: cover;
+}
+
+
+
+.poke-container{
+display: flex;
+gap: 16px;
+padding: 16px 24px;
+border-radius: 16px;
+box-shadow: 3px 3px 10px 0px rgb(50 50 50 / 10%);
+background: white;
+width: 1200px;
+transition: 0.2s;
+}
+
+
+
+.poke-name{
+margin-bottom: 12px;
+}
+
+
+
+.poke-ability{
+color: grey;
+font-size: 14px;
+margin: 0px;
+}
+
+
+
+.poke-move{
+color: grey;
+font-size: 14px;
+margin:0px;
+}
+
+
+
+.poke-weight{
+color: grey;
+font-size: 14px;
+margin: 0px;
+}
+
+
+
+.poke-container:hover{
+transform: scale(1.1);
+background-color: green;
+color: whitesmoke;
+}
+
+
+
+.poke-container:hover .poke-ability {
+color: yellowgreen;
+}
+
+
+
+.poke-container:hover .poke-move {
+color: yellowgreen;
+}  
+
+
+
+.poke-container:hover .poke-weight {
+color: yellowgreen;
+}
